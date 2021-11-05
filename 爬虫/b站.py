@@ -6,7 +6,7 @@ from random import choice
 from io import BytesIO
 from urllib.request import Request, urlopen
 
-from 爬虫 import test
+import test
 
 find_all = re.compile(r'投稿(.*)相关推荐', re.S)
 find_title = re.compile(r'<h1 title="(.*)" class="video-title">')  # 标题
